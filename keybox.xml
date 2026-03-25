@@ -1,9 +1,19 @@
-<?xml version="1.0"?><AndroidAttestation><NumberOfKeyboxes>1</NumberOfKeyboxes><Keybox DeviceID="SuXiaoMing"><Key algorithm="ecdsa"><PrivateKey format="pem">-----BEGIN EC PRIVATE KEY-----
+<?xml version="1.0"?>
+<AndroidAttestation>
+<NumberOfKeyboxes>1</NumberOfKeyboxes>
+<Keybox DeviceID="KGw98az0Zd0k5Oaw">
+<Key algorithm="ecdsa">
+<PrivateKey format="pem">
+-----BEGIN EC PRIVATE KEY-----
 MHcCAQEEICk+73eXGjieNh2IpjYq1Qdl6vGM8LAP/NEk7vmAviqmoAoGCCqGSM49
 AwEHoUQDQgAEaFCmKHUNyHqfIx2peAy2d6e9zRoMguXbLj6FVNgeshizCBw/d8W4
 nhoyEEFXJZiq6lBFPKGw98az0Zd0k5/Oaw==
 -----END EC PRIVATE KEY-----
-</PrivateKey><CertificateChain><NumberOfCertificates>3</NumberOfCertificates><Certificate format="pem">-----BEGIN CERTIFICATE-----
+</PrivateKey>
+<CertificateChain>
+<NumberOfCertificates>3</NumberOfCertificates>
+<Certificate format="pem">
+-----BEGIN CERTIFICATE-----
 MIICJjCCAaugAwIBAgIKCYNJJQRDhoBlIjAKBggqhkjOPQQDAjApMRkwFwYDVQQF
 ExA1NDQ5ZDJjZGI2Yjg5NmU2MQwwCgYDVQQMDANURUUwHhcNMTkwNjEzMTg1MjU4
 WhcNMjkwNjEwMTg1MjU4WjApMRkwFwYDVQQFExBmODNkYzAyMDBmMjVhM2M5MQww
@@ -17,7 +27,9 @@ NTIyMAoGCCqGSM49BAMCA2kAMGYCMQDgZzMgZQ0IqJIh7sbZ550yAlSfZYoKK6wV
 z3BCtrWII8lwMvIwC7DwXXvZtWnwgn8CMQDtUkuR35+Se562g6h6PMUttvWhA5rY
 cLDl/LsjlYoQZAWYjWcKe4/dQWwoi5MDAkI=
 -----END CERTIFICATE-----
-</Certificate><Certificate format="pem">-----BEGIN CERTIFICATE-----
+</Certificate>
+<Certificate format="pem">
+-----BEGIN CERTIFICATE-----
 MIID0TCCAbmgAwIBAgIKA4gmZ2BliZaF3jANBgkqhkiG9w0BAQsFADAbMRkwFwYD
 VQQFExBmOTIwMDllODUzYjZiMDQ1MB4XDTE5MDYxMzE4NDQzNFoXDTI5MDYxMDE4
 NDQzNFowKTEZMBcGA1UEBRMQNTQ0OWQyY2RiNmI4OTZlNjEMMAoGA1UEDAwDVEVF
@@ -40,7 +52,9 @@ oqaRPusLX7IJXyB0drDZhkW5ZpdJj/9L2fSDwWyZLvwJmhwvVWrlTDTWoqoqVyBG
 ELltFvhS7SdfEpSKWFG/28MBA4mU/KTzx7tyfS8jFnt5aeo3di8Ul/ZTfPVnEF3E
 000hO9tcwAvkbywK6vXur6KLBNWc
 -----END CERTIFICATE-----
-</Certificate><Certificate format="pem">-----BEGIN CERTIFICATE-----
+</Certificate>
+<Certificate format="pem">
+-----BEGIN CERTIFICATE-----
 MIIFYDCCA0igAwIBAgIJAOj6GWMU0voYMA0GCSqGSIb3DQEBCwUAMBsxGTAXBgNV
 BAUTEGY5MjAwOWU4NTNiNmIwNDUwHhcNMTYwNTI2MTYyODUyWhcNMjYwNTI0MTYy
 ODUyWjAbMRkwFwYDVQQFExBmOTIwMDllODUzYjZiMDQ1MIICIjANBgkqhkiG9w0B
@@ -71,7 +85,12 @@ qwLqRBYkA3I75qppLGG9rp7UCdRjxMl8ZDBld+7yvHVgt1cVzJx9xnyGCC23Uaic
 MDSXYrB4I4WHXPGjxhZuCuPBLTdOLU8YRvMYdEvYebWHMpvwGCF6bAx3JBpIeOQ1
 wDB5y0USicV3YgYGmi+NZfhA4URSh77Yd6uuJOJENRaNVTzk
 -----END CERTIFICATE-----
-</Certificate></CertificateChain></Key><Key algorithm="fateh7"><PrivateKey format="pem">-----BEGIN RSA PRIVATE KEY-----
+</Certificate>
+</CertificateChain>
+</Key>
+<Key algorithm="rsa">
+<PrivateKey format="pem">
+-----BEGIN RSA PRIVATE KEY-----
 MIIG5QIBAAKCAYEAzX7ct7cDKw0ge1867LW11dEzgiRfR6NMNqHaX0EKaRG+vFy9
 cAajElLSBSqzzCn2YhPxa3VsrGuEPFkHzPF6xStIf22GZNt5PPFJhwcB4hMBBxsW
 kRkmdv1ltxpaZoMJa/DF7U84Kz0iQ/zFNXO/M3EdIWAx4/AXfNi5HpYyB5p2Rf/9
@@ -110,7 +129,11 @@ sCv7Wiy3fLQptZzCz7i/WMPrpwsy4AWQebwHRAgwjhILDrCCL+MCgcA+9VTd1GFu
 RG7Ym/6B0EKskLiYXbGnSt0NnEfY0329729nWflK/j3WjiYhLf317RO6lojkjelK
 2loIuFFvxPRhVfQJqwITPsTGVw5Z3k1UyZtq1JN5x0LPztF7Q/lw1U0=
 -----END RSA PRIVATE KEY-----
-</PrivateKey><CertificateChain><NumberOfCertificates>3</NumberOfCertificates><Certificate format="pem">-----BEGIN CERTIFICATE-----
+</PrivateKey>
+<CertificateChain>
+<NumberOfCertificates>3</NumberOfCertificates>
+<Certificate format="pem">
+-----BEGIN CERTIFICATE-----
 MIIFETCCAvmgAwIBAgIKAZM2hShQAlFgczANBgkqhkiG9w0BAQsFADApMRkwFwYD
 VQQFExA1NDQ5ZDJjZGI2Yjg5NmU2MQwwCgYDVQQMDANURUUwHhcNMTkwNjEzMTg1
 MjQ2WhcNMjkwNjEwMTg1MjQ2WjApMRkwFwYDVQQFExBmODNkYzAyMDBmMjVhM2M5
@@ -140,7 +163,9 @@ f5i9LV2ELkDeVU17JWYiUru+3po7vfjn6ohEfaJFBm2MvmQoOTXwqgWbowapktF8
 70pSJ1J+GjgBFrG96uBSRXVoIwQz0I5pPYYo5WKA3wDR3fGJ9mpLateKDMJtIjqj
 LVhQWqM=
 -----END CERTIFICATE-----
-</Certificate><Certificate format="pem">-----BEGIN CERTIFICATE-----
+</Certificate>
+<Certificate format="pem">
+-----BEGIN CERTIFICATE-----
 MIIFfzCCA2egAwIBAgIKA4gmZ2BliZaF3TANBgkqhkiG9w0BAQsFADAbMRkwFwYD
 VQQFExBmOTIwMDllODUzYjZiMDQ1MB4XDTE5MDYxMzE4NDMyNFoXDTI5MDYxMDE4
 NDMyNFowKTEZMBcGA1UEBRMQNTQ0OWQyY2RiNmI4OTZlNjEMMAoGA1UEDAwDVEVF
@@ -172,7 +197,9 @@ PL46sGxvgXCrIeRkfXC9XiKWjHoDM9FpWM65GOqn6Ujd7W/l79jFW8ZFezv3jBSw
 JndjQFkHOt1uIhHHj6rZ56TxLJeLbKEjYoBfQtIUsStrIgsSZnUkk52HtYe4lxZq
 BrzdIQxCNrkVXccv+YLZ9/l5JA==
 -----END CERTIFICATE-----
-</Certificate><Certificate format="pem">-----BEGIN CERTIFICATE-----
+</Certificate>
+<Certificate format="pem">
+-----BEGIN CERTIFICATE-----
 MIIFYDCCA0igAwIBAgIJAOj6GWMU0voYMA0GCSqGSIb3DQEBCwUAMBsxGTAXBgNV
 BAUTEGY5MjAwOWU4NTNiNmIwNDUwHhcNMTYwNTI2MTYyODUyWhcNMjYwNTI0MTYy
 ODUyWjAbMRkwFwYDVQQFExBmOTIwMDllODUzYjZiMDQ1MIICIjANBgkqhkiG9w0B
@@ -203,4 +230,8 @@ qwLqRBYkA3I75qppLGG9rp7UCdRjxMl8ZDBld+7yvHVgt1cVzJx9xnyGCC23Uaic
 MDSXYrB4I4WHXPGjxhZuCuPBLTdOLU8YRvMYdEvYebWHMpvwGCF6bAx3JBpIeOQ1
 wDB5y0USicV3YgYGmi+NZfhA4URSh77Yd6uuJOJENRaNVTzk
 -----END CERTIFICATE-----
-</Certificate></CertificateChain></Key></Keybox></AndroidAttestation>
+</Certificate>
+</CertificateChain>
+</Key>
+</Keybox>
+</AndroidAttestation>
